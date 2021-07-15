@@ -13309,6 +13309,30 @@ var Programs = (function () {
 
   var Services = [
   	{
+  		subtitle: "Referral to specialty services for people with serious mental illness",
+  		title: "Single Point of Access (SPOA)",
+  		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
+  		body: "Referral to specialty services for people with serious mental illness",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 10,
+  				name: "Serious mental illness"
+  			},
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
   		subtitle: "Counseling with bilingual-bicultural therapists at NYC Health + Hospitals to help you build stronger relationships in your family.",
   		title: "Family Counseling",
   		programProvider: "NYC Health + Hospitals",
