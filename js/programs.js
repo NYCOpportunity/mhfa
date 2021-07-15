@@ -13309,6 +13309,50 @@ var Programs = (function () {
 
   var Services = [
   	{
+  		subtitle: "Court-ordered treatment program for those with serious mental illness who are a danger to themselves or others.",
+  		title: "Assisted Outpatient Treatment (AOT)",
+  		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
+  		body: "Court-ordered treatment program for those with serious mental illness who are a danger to themselves or others.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			},
+  			{
+  				id: 10,
+  				name: "Serious mental illness"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Mental health resources to meet the emotional health and academic needs of your child.",
+  		title: "School Mental Health Services",
+  		programProvider: "Department of Education",
+  		body: "Mental health resources to meet the emotional health and academic needs of your child.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 5,
+  				name: "Children and Youth"
+  			}
+  		]
+  	},
+  	{
   		subtitle: "Referral to specialty services for people with serious mental illness",
   		title: "Single Point of Access (SPOA)",
   		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
