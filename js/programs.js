@@ -13309,6 +13309,190 @@ var Programs = (function () {
 
   var Services = [
   	{
+  		subtitle: "Counseling with bilingual-bicultural therapists at NYC Health + Hospitals to help you build stronger relationships in your family.",
+  		title: "Family Counseling",
+  		programProvider: "NYC Health + Hospitals",
+  		body: "Counseling with bilingual-bicultural therapists at NYC Health + Hospitals to help you build stronger relationships in your family.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 8,
+  				name: "Counseling"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 2,
+  				name: "Families"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
+  		title: "Gotham Pride Health Centers",
+  		programProvider: "NYC Health + Hospitals",
+  		body: "Mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 3,
+  				name: "LGBTQ"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Drug use supplies and overdose prevention education for people who use drugs",
+  		title: "Syringe Service Programs",
+  		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
+  		body: "Drug use supplies and overdose prevention education for people who use drugs",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 6,
+  				name: "Substance Use Services"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Free Naloxone kits from community-based programs and pharmacies to reverse an opioid overdose.",
+  		title: "Naloxone",
+  		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
+  		body: "Free Naloxone kits from community-based programs and pharmacies to reverse an opioid overdose.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 6,
+  				name: "Substance Use Services"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Psychiatric emergency services for New Yorkers at NYC Health + Hospitals",
+  		title: "Comprehensive Psychiatric Emergency Services Program (CPEP)",
+  		programProvider: "NYC Health + Hospitals",
+  		body: "Psychiatric emergency services for New Yorkers at NYC Health + Hospitals",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 10,
+  				name: "Serious mental illness"
+  			},
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Family support services for parents of youth with mental health challenges.",
+  		title: "NYC Family Resource Centers",
+  		programProvider: "NYC Department of Health and Mental Hygiene",
+  		body: "Family support services for parents of youth with mental health challenges.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 7,
+  				name: "Peer Support"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 2,
+  				name: "Families"
+  			},
+  			{
+  				id: 5,
+  				name: "Children and Youth"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Emergency drop-in centers for homeless and runaway youth who need food and other essentials.",
+  		title: "Drop-in Centers for Runaway and Homeless Youth",
+  		programProvider: "Department of Youth and Community Development (DYCD)",
+  		body: "Emergency drop-in centers for homeless and runaway youth who need food and other essentials.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 1,
+  				name: "Trauma Support"
+  			},
+  			{
+  				id: 5,
+  				name: "Help with Anxiety"
+  			},
+  			{
+  				id: 6,
+  				name: "Substance Use Services"
+  			},
+  			{
+  				id: 8,
+  				name: "Counseling"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 5,
+  				name: "Children and Youth"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Low- or no- cost healthcare for New Yorkers who can’t afford or are ineligible for health insurance",
+  		title: "NYC Care",
+  		programProvider: "NYC Health + Hospitals",
+  		body: "Low- or no- cost healthcare for New Yorkers who can’t afford or are ineligible for health insurance",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 10,
+  				name: "Serious mental illness"
+  			},
+  			{
+  				id: 9,
+  				name: "Mental Health Care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone"
+  			}
+  		]
+  	},
+  	{
   		subtitle: "Parents worried about their children’s emotions or behaviors can get specialized mental health treatment for their children.",
   		title: "Early Childhood Mental Health Network",
   		programProvider: "Department of Health and Mental Hygiene",
@@ -13912,22 +14096,11 @@ var Programs = (function () {
            */
 
           slugify: function(string) {
-            const a =
-              'àáâäæãåāăąçćčđďèéêëēėęěğǵḧîïíīįìłḿñńǹňôöòóœøōõőṕŕřßśšşșťțûüùúūǘůűųẃẍÿýžźż·/_,:;';
-            const b =
-              'aaaaaaaaaacccddeeeeeeeegghiiiiiilmnnnnoooooooooprrsssssttuuuuuuuuuwxyyzzz------';
-            const p = new RegExp(a.split('').join('|'), 'g');
-
             return string
-              .toString()
               .toLowerCase()
-              .replace(/\s+/g, '-') // Replace spaces with -
-              .replace(p, (c) => b.charAt(a.indexOf(c))) // Replace special characters
-              .replace(/&/g, '-and-') // Replace & with 'and'
-              .replace(/[^\w\-]+/g, '') // Remove all non-word characters
-              .replace(/\-\-+/g, '-') // Replace multiple - with single -
-              .replace(/^-+/, '') // Trim - from start of text
-              .replace(/-+$/, ''); // Trim - from end of text
+              .replace(/[^0-9a-zA-Z - _]+/g, '')
+              .replace(/\s+/g, '-')
+              .replace(/-+/g, '-');
           },
         },
 
