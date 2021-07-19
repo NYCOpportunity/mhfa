@@ -13916,7 +13916,7 @@ var Programs = (function () {
                *
                * @type  {String}
                */
-              terms: 'https://cityofnewyork.github.io/mhfa/data/terms.json',
+              terms: 'https://nycopportunity.github.io/mhfa/data/terms.json',
 
               /**
                * A required endpoint for the list of services. This is based on
@@ -13924,7 +13924,7 @@ var Programs = (function () {
                *
                * @type  {String}
                */
-              programs: 'https://cityofnewyork.github.io/mhfa/data/services.json',
+              programs: 'https://nycopportunity.github.io/mhfa/data/services.json',
             },
 
             /**
