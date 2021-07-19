@@ -13283,7 +13283,7 @@ var Programs = (function () {
       var _h = _vm.$createElement;
       var _c = _vm._self._c || _h;
       return _c("div", { staticClass: "px-8 py-3" }, [
-        _c("h3", [_vm._v("Filter Services")])
+        _c("h3", [_vm._v("Filter Services:")])
       ])
     }
   ];
