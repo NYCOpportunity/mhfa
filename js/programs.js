@@ -13318,17 +13318,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13342,13 +13345,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 5,
-  				name: "Children and Youth"
+  				name: "Children and Youth",
+  				slug: "children-and-youth"
   			}
   		]
   	},
@@ -13362,17 +13367,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13386,13 +13394,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 8,
-  				name: "Counseling"
+  				name: "Counseling",
+  				slug: "counseling"
   			}
   		],
   		population: [
   			{
   				id: 2,
-  				name: "Families"
+  				name: "Families",
+  				slug: "families"
   			}
   		]
   	},
@@ -13406,13 +13416,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 3,
-  				name: "LGBTQ"
+  				name: "LGBTQ",
+  				slug: "lgbtq"
   			}
   		]
   	},
@@ -13426,13 +13438,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 6,
-  				name: "Substance Use Services"
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13446,13 +13460,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 6,
-  				name: "Substance Use Services"
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13466,17 +13482,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13490,17 +13509,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			}
   		],
   		population: [
   			{
   				id: 2,
-  				name: "Families"
+  				name: "Families",
+  				slug: "families"
   			},
   			{
   				id: 5,
-  				name: "Children and Youth"
+  				name: "Children and Youth",
+  				slug: "children-and-youth"
   			}
   		]
   	},
@@ -13514,25 +13536,30 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			},
   			{
   				id: 5,
-  				name: "Help with Anxiety"
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
   			},
   			{
   				id: 6,
-  				name: "Substance Use Services"
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			},
   			{
   				id: 8,
-  				name: "Counseling"
+  				name: "Counseling",
+  				slug: "counseling"
   			}
   		],
   		population: [
   			{
   				id: 5,
-  				name: "Children and Youth"
+  				name: "Children and Youth",
+  				slug: "children-and-youth"
   			}
   		]
   	},
@@ -13546,17 +13573,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13570,25 +13600,30 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			},
   			{
   				id: 5,
-  				name: "Help with Anxiety"
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
   			},
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 2,
-  				name: "Children and Families"
+  				name: "Children and Families",
+  				slug: "children-and-families"
   			}
   		]
   	},
@@ -13602,25 +13637,30 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 6,
-  				name: "Substance Use Services"
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			}
   		],
   		population: [
   			{
   				id: 8,
-  				name: "Adults"
+  				name: "Adults",
+  				slug: "adults"
   			},
   			{
   				id: 4,
-  				name: "Seniors"
+  				name: "Seniors",
+  				slug: "seniors"
   			}
   		]
   	},
@@ -13634,33 +13674,40 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			},
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			}
   		],
   		population: [
   			{
   				id: 2,
-  				name: "Children and Families"
+  				name: "Children and Families",
+  				slug: "children-and-families"
   			},
   			{
   				id: 8,
-  				name: "Adults"
+  				name: "Adults",
+  				slug: "adults"
   			},
   			{
   				id: 7,
-  				name: "Immigrants"
+  				name: "Immigrants",
+  				slug: "immigrants"
   			}
   		]
   	},
@@ -13674,13 +13721,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			}
   		],
   		population: [
   			{
   				id: 4,
-  				name: "Seniors"
+  				name: "Seniors",
+  				slug: "seniors"
   			}
   		]
   	},
@@ -13694,21 +13743,25 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 5,
-  				name: "Help with Anxiety"
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 4,
-  				name: "Seniors"
+  				name: "Seniors",
+  				slug: "seniors"
   			}
   		]
   	},
@@ -13722,29 +13775,35 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			},
   			{
   				id: 2,
-  				name: "Children and Families"
+  				name: "Children and Families",
+  				slug: "children-and-families"
   			},
   			{
   				id: 8,
-  				name: "Adults"
+  				name: "Adults",
+  				slug: "adults"
   			},
   			{
   				id: 3,
-  				name: "LGBTQ"
+  				name: "LGBTQ",
+  				slug: "lgbtq"
   			},
   			{
   				id: 7,
-  				name: "Immigrants"
+  				name: "Immigrants",
+  				slug: "immigrants"
   			}
   		]
   	},
@@ -13758,17 +13817,20 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			},
   			{
   				id: 5,
-  				name: "Help with Anxiety"
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
   			}
   		],
   		population: [
   			{
   				id: 1,
-  				name: "Veterans"
+  				name: "Veterans",
+  				slug: "veterans"
   			}
   		]
   	},
@@ -13782,13 +13844,15 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 1,
-  				name: "Trauma Support"
+  				name: "Trauma Support",
+  				slug: "trauma-support"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13802,37 +13866,45 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 3,
-  				name: "Crisis Support"
+  				name: "Crisis Support",
+  				slug: "crisis-support"
   			},
   			{
   				id: 5,
-  				name: "Help with Anxiety"
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
   			},
   			{
   				id: 4,
-  				name: "Grief Support"
+  				name: "Grief Support",
+  				slug: "grief-support"
   			},
   			{
   				id: 6,
-  				name: "Substance Use Services"
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 7,
-  				name: "Peer Support"
+  				name: "Peer Support",
+  				slug: "peer-support"
   			},
   			{
   				id: 8,
-  				name: "Counseling"
+  				name: "Counseling",
+  				slug: "counseling"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	},
@@ -13846,21 +13918,25 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 3,
-  				name: "Crisis Support"
+  				name: "Crisis Support",
+  				slug: "crisis-support"
   			},
   			{
   				id: 10,
-  				name: "Serious mental illness"
+  				name: "Serious mental illness",
+  				slug: "serious-mental-illness"
   			},
   			{
   				id: 9,
-  				name: "Mental Health Care"
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
   			}
   		],
   		population: [
   			{
   				id: 6,
-  				name: "Everyone"
+  				name: "Everyone",
+  				slug: "everyone"
   			}
   		]
   	}
