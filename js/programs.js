@@ -12938,6 +12938,8 @@ var Programs = (function () {
               "o-article-sidebar o-content-container--compact u-lg-gutter desktop:w-sidebar"
           },
           [
+            _vm._m(0),
+            _vm._v(" "),
             _c(
               "div",
               {
@@ -13275,7 +13277,16 @@ var Programs = (function () {
       ]
     )
   };
-  var __vue_staticRenderFns__ = [];
+  var __vue_staticRenderFns__ = [
+    function() {
+      var _vm = this;
+      var _h = _vm.$createElement;
+      var _c = _vm._self._c || _h;
+      return _c("div", { staticClass: "px-8 py-3" }, [
+        _c("h3", [_vm._v("Filter Services")])
+      ])
+    }
+  ];
   __vue_render__._withStripped = true;
 
     /* style */
