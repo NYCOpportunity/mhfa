@@ -26824,51 +26824,51 @@ a.bg-children-and-youth--secondary.is-active,a.bg-children-and-youth--secondary:
   background-image:url(https://cdn.jsdelivr.net/gh/NYCOpportunity/growingupnyc-patterns@1.0.1/dist/images/gradient-baby.png)
 }
 
-.bg-lgbtq--primary,.hover\:bg-lgbtq--primary:hover{
+.bg-lgbtq-new-yorkers--primary,.hover\:bg-lgbtq-new-yorkers--primary:hover{
   background-color:#c1408b!important
 }
 
-.border-lgbtq--primary{
+.border-lgbtq-new-yorkers--primary{
   border-color:#c1408b!important
 }
 
-.text-lgbtq--primary{
+.text-lgbtq-new-yorkers--primary{
   color:#c1408b
 }
 
-a.bg-lgbtq--primary,button.bg-lgbtq--primary{
+a.bg-lgbtq-new-yorkers--primary,button.bg-lgbtq-new-yorkers--primary{
   transition:background-color .25s linear
 }
 
-a.bg-lgbtq--primary.is-active,a.bg-lgbtq--primary:focus,a.bg-lgbtq--primary:hover,button.bg-lgbtq--primary.is-active,button.bg-lgbtq--primary:focus,button.bg-lgbtq--primary:hover{
+a.bg-lgbtq-new-yorkers--primary.is-active,a.bg-lgbtq-new-yorkers--primary:focus,a.bg-lgbtq-new-yorkers--primary:hover,button.bg-lgbtq-new-yorkers--primary.is-active,button.bg-lgbtq-new-yorkers--primary:focus,button.bg-lgbtq-new-yorkers--primary:hover{
   background-color:#c1408b!important;
   border-color:#c1408b!important;
   outline:none
 }
 
-.bg-lgbtq--secondary,.hover\:bg-lgbtq--secondary:hover{
+.bg-lgbtq-new-yorkers--secondary,.hover\:bg-lgbtq-new-yorkers--secondary:hover{
   background-color:#c1408b!important
 }
 
-.border-lgbtq--secondary{
+.border-lgbtq-new-yorkers--secondary{
   border-color:#c1408b!important
 }
 
-.text-lgbtq--secondary{
+.text-lgbtq-new-yorkers--secondary{
   color:#c1408b
 }
 
-a.bg-lgbtq--secondary.is-active,a.bg-lgbtq--secondary:focus,a.bg-lgbtq--secondary:hover,button.bg-lgbtq--secondary.is-active,button.bg-lgbtq--secondary:focus,button.bg-lgbtq--secondary:hover{
+a.bg-lgbtq-new-yorkers--secondary.is-active,a.bg-lgbtq-new-yorkers--secondary:focus,a.bg-lgbtq-new-yorkers--secondary:hover,button.bg-lgbtq-new-yorkers--secondary.is-active,button.bg-lgbtq-new-yorkers--secondary:focus,button.bg-lgbtq-new-yorkers--secondary:hover{
   background-color:#c1408b!important;
   border-color:#c1408b!important;
   outline:none
 }
 
-.svg-lgbtq .stop1,.svg-lgbtq .stop2{
+.svg-lgbtq-new-yorkers .stop1,.svg-lgbtq-new-yorkers .stop2{
   stop-color:#c1408b
 }
 
-.gradient-lgbtq{
+.gradient-lgbtq-new-yorkers{
   background-image:url(https://cdn.jsdelivr.net/gh/NYCOpportunity/growingupnyc-patterns@1.0.1/dist/images/gradient-baby.png)
 }
 

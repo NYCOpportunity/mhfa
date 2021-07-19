@@ -13434,8 +13434,8 @@ var Programs = (function () {
   		population: [
   			{
   				id: 3,
-  				name: "LGBTQ",
-  				slug: "lgbtq"
+  				name: "LGBTQ New Yorkers",
+  				slug: "lgbtq-new-yorkers"
   			}
   		]
   	},
@@ -13507,6 +13507,48 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "Parents worried about their children’s emotions or behaviors can get specialized mental health treatment for their children.",
+  		title: "Early Childhood Mental Health Network",
+  		programProvider: "Department of Health and Mental Hygiene",
+  		body: "Parents worried about their children’s emotions or behaviors can get specialized mental health treatment for their children.",
+  		link: "./programs/",
+  		featured: true,
+  		categories: [
+  			{
+  				id: 1,
+  				name: "Trauma Support",
+  				slug: "trauma-support"
+  			},
+  			{
+  				id: 5,
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
+  			},
+  			{
+  				id: 7,
+  				name: "Peer Support",
+  				slug: "peer-support"
+  			},
+  			{
+  				id: 9,
+  				name: "Mental Health Care",
+  				slug: "mental-health-care"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 2,
+  				name: "Families",
+  				slug: "families"
+  			},
+  			{
+  				id: 5,
+  				name: "Children and Youth",
+  				slug: "children-and-youth"
   			}
   		]
   	},
@@ -13602,43 +13644,6 @@ var Programs = (function () {
   		]
   	},
   	{
-  		subtitle: "Parents worried about their children’s emotions or behaviors can get specialized mental health treatment for their children.",
-  		title: "Early Childhood Mental Health Network",
-  		programProvider: "Department of Health and Mental Hygiene",
-  		body: "Parents worried about their children’s emotions or behaviors can get specialized mental health treatment for their children.",
-  		link: "./programs/",
-  		featured: true,
-  		categories: [
-  			{
-  				id: 1,
-  				name: "Trauma Support",
-  				slug: "trauma-support"
-  			},
-  			{
-  				id: 5,
-  				name: "Help with Anxiety",
-  				slug: "help-with-anxiety"
-  			},
-  			{
-  				id: 7,
-  				name: "Peer Support",
-  				slug: "peer-support"
-  			},
-  			{
-  				id: 9,
-  				name: "Mental Health Care",
-  				slug: "mental-health-care"
-  			}
-  		],
-  		population: [
-  			{
-  				id: 2,
-  				name: "Children and Families",
-  				slug: "children-and-families"
-  			}
-  		]
-  	},
-  	{
   		subtitle: "People who struggle with mental illness and substance abuse can go to a Clubhouse to connect with peers and get help rejoining society.",
   		title: "Clubhouses",
   		programProvider: "Department of Health and Mental Hygiene",
@@ -13707,8 +13712,8 @@ var Programs = (function () {
   		population: [
   			{
   				id: 2,
-  				name: "Children and Families",
-  				slug: "children-and-families"
+  				name: "Families",
+  				slug: "families"
   			},
   			{
   				id: 8,
@@ -13798,8 +13803,8 @@ var Programs = (function () {
   			},
   			{
   				id: 2,
-  				name: "Children and Families",
-  				slug: "children-and-families"
+  				name: "Families",
+  				slug: "families"
   			},
   			{
   				id: 8,
@@ -13808,8 +13813,8 @@ var Programs = (function () {
   			},
   			{
   				id: 3,
-  				name: "LGBTQ",
-  				slug: "lgbtq"
+  				name: "LGBTQ New Yorkers",
+  				slug: "lgbtq-new-yorkers"
   			},
   			{
   				id: 7,
