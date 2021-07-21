@@ -13339,36 +13339,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
   			}
   		]
   	},
@@ -13467,8 +13437,8 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Care Serious mental illness",
-  				slug: "care-serious-mental-illness"
+  				name: "Care for Serious Mental Illness",
+  				slug: "care-for-serious-mental-illness"
   			},
   			{
   				id: 8,
@@ -13580,8 +13550,8 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Care Serious mental illness",
-  				slug: "care-serious-mental-illness"
+  				name: "Care for Serious Mental Illness",
+  				slug: "care-for-serious-mental-illness"
   			},
   			{
   				id: 8,
@@ -13694,10 +13664,10 @@ var Programs = (function () {
   		]
   	},
   	{
-  		subtitle: "Mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
+  		subtitle: "Pride Health Centers provide primary care services, mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
   		title: "Gotham Pride Health Centers",
   		programProvider: "NYC Health + Hospitals Pride Health Centers",
-  		body: "Mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
+  		body: "Pride Health Centers provide primary care services, mental health support and sexual/reproductive services for LGBTQ New Yorkers.",
   		link: "./programs/",
   		featured: [
   			{
@@ -13708,8 +13678,8 @@ var Programs = (function () {
   		categories: [
   			{
   				id: 10,
-  				name: "Care Serious mental illness",
-  				slug: "care-serious-mental-illness"
+  				name: "Care for Serious Mental Illness",
+  				slug: "care-for-serious-mental-illness"
   			},
   			{
   				id: 8,
@@ -14002,19 +13972,39 @@ var Programs = (function () {
   		],
   		categories: [
   			{
-  				id: 3,
-  				name: "Crisis Support",
-  				slug: "crisis-support"
-  			},
-  			{
-  				id: 4,
-  				name: "Grief Support",
-  				slug: "grief-support"
+  				id: 6,
+  				name: "Substance Use Services",
+  				slug: "substance-use-services"
   			},
   			{
   				id: 7,
   				name: "Peer Support",
   				slug: "peer-support"
+  			},
+  			{
+  				id: 8,
+  				name: "Counseling",
+  				slug: "counseling"
+  			},
+  			{
+  				id: 3,
+  				name: "Crisis Support",
+  				slug: "crisis-support"
+  			},
+  			{
+  				id: 5,
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
+  			},
+  			{
+  				id: 1,
+  				name: "Trauma Support",
+  				slug: "trauma-support"
+  			},
+  			{
+  				id: 4,
+  				name: "Grief Support",
+  				slug: "grief-support"
   			}
   		],
   		population: [
@@ -14046,10 +14036,10 @@ var Programs = (function () {
   		]
   	},
   	{
-  		subtitle: "Low- or no- cost healthcare for New Yorkers who can’t afford or are ineligible for health insurance",
+  		subtitle: "New Yorkers who are ineligible for health insurance or can’t afford it can access low- or no- cost healthcare through NYC Care.",
   		title: "NYC Care",
   		programProvider: "NYC Health + Hospitals",
-  		body: "Low- or no- cost healthcare for New Yorkers who can’t afford or are ineligible for health insurance",
+  		body: "New Yorkers who are ineligible for health insurance or can’t afford it can access low- or no- cost healthcare through NYC Care.",
   		link: "./programs/",
   		featured: [
   			{
@@ -14142,8 +14132,8 @@ var Programs = (function () {
   			},
   			{
   				id: 10,
-  				name: "Care Serious mental illness",
-  				slug: "care-serious-mental-illness"
+  				name: "Care for Serious Mental Illness",
+  				slug: "care-for-serious-mental-illness"
   			}
   		],
   		population: [
@@ -14341,6 +14331,11 @@ var Programs = (function () {
   				slug: "adults"
   			},
   			{
+  				id: 4,
+  				name: "Seniors",
+  				slug: "seniors"
+  			},
+  			{
   				id: 1,
   				name: "Veterans",
   				slug: "veterans"
@@ -14360,7 +14355,7 @@ var Programs = (function () {
   	{
   		subtitle: "Mission: VetCheck connects veterans to trained volunteers through one-on-one supportive check-in calls.",
   		title: "Mission: VetCheck",
-  		programProvider: "NYC Department of Veterans’ Services & The Mayor’s Office of Community Mental Health (OCMH)",
+  		programProvider: "NYC Department of Veterans’ Services (DVS) and Mayor’s Office of Community Mental Health (OCMH)",
   		body: "Mission: VetCheck connects veterans to trained volunteers through one-on-one supportive check-in calls.",
   		link: "./programs/",
   		featured: [
