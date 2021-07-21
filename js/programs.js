@@ -13493,49 +13493,6 @@ var Programs = (function () {
   		]
   	},
   	{
-  		subtitle: "Court-ordered treatment program for those with serious mental illness who are a danger to themselves or others.",
-  		title: "Assisted Outpatient Treatment (AOT)",
-  		programProvider: "Department of Mental Health and Hygiene (DOHMH)",
-  		body: "Court-ordered treatment program for those with serious mental illness who are a danger to themselves or others.",
-  		link: "./programs/",
-  		featured: [
-  		],
-  		categories: [
-  			{
-  				id: 10,
-  				name: "Care for Serious Mental Illness",
-  				slug: "care-for-serious-mental-illness"
-  			}
-  		],
-  		population: [
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
-  			}
-  		]
-  	},
-  	{
   		subtitle: "Mental health resources at NYCDOE schools to meet the emotional health and academic needs of your child.",
   		title: "School Mental Health Services",
   		programProvider: "Department of Education (DOE) and Department of Health and Mental Hygiene (DOHMH)",
@@ -13764,41 +13721,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
   			}
   		]
   	},
@@ -13822,41 +13744,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
   			}
   		]
   	},
@@ -13911,34 +13798,6 @@ var Programs = (function () {
   				name: "Help with Anxiety",
   				slug: "help-with-anxiety"
   			},
-  			{
-  				id: 7,
-  				name: "Peer Support",
-  				slug: "peer-support"
-  			}
-  		],
-  		population: [
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			}
-  		]
-  	},
-  	{
-  		subtitle: "Family support services for parents of youth with mental health challenges.",
-  		title: "NYC Family Resource Centers",
-  		programProvider: "NYC Department of Health and Mental Hygiene",
-  		body: "Family support services for parents of youth with mental health challenges.",
-  		link: "./programs/",
-  		featured: [
-  		],
-  		categories: [
   			{
   				id: 7,
   				name: "Peer Support",
@@ -14314,41 +14173,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
   			}
   		]
   	},
@@ -14419,41 +14243,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
   			}
   		]
   	},
@@ -14583,41 +14372,6 @@ var Programs = (function () {
   				id: 6,
   				name: "Everyone",
   				slug: "everyone"
-  			},
-  			{
-  				id: 5,
-  				name: "Children and Youth",
-  				slug: "children-and-youth"
-  			},
-  			{
-  				id: 2,
-  				name: "Families",
-  				slug: "families"
-  			},
-  			{
-  				id: 8,
-  				name: "Adults",
-  				slug: "adults"
-  			},
-  			{
-  				id: 4,
-  				name: "Seniors",
-  				slug: "seniors"
-  			},
-  			{
-  				id: 7,
-  				name: "Immigrants",
-  				slug: "immigrants"
-  			},
-  			{
-  				id: 1,
-  				name: "Veterans",
-  				slug: "veterans"
-  			},
-  			{
-  				id: 3,
-  				name: "LGBTQ New Yorkers",
-  				slug: "lgbtq-new-yorkers"
   			}
   		]
   	}
