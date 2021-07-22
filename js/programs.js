@@ -12965,7 +12965,7 @@ var Programs = (function () {
                         class:
                           "c-list-box__heading o-accordion__header bg-" +
                           term.slug +
-                          "--secondary active",
+                          "--primary active",
                         attrs: {
                           "data-js": "accordion",
                           type: "button",
@@ -13186,9 +13186,7 @@ var Programs = (function () {
                                           {
                                             key: category.name,
                                             class:
-                                              "button--pill bg-" +
-                                              _vm.slugify(category.name) +
-                                              "--primary",
+                                              "button--pill bg-yellow--primary",
                                             on: {
                                               click: function($event) {
                                                 return _vm.link(
@@ -13259,7 +13257,7 @@ var Programs = (function () {
               ? _c(
                   "button",
                   { attrs: { "data-amount": "1" }, on: { click: _vm.paginate } },
-                  [_vm._v("\n        Load More Posts\n      ")]
+                  [_vm._v("Load More Posts")]
                 )
               : _vm._e()
           ])
