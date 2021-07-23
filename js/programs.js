@@ -12926,10 +12926,7 @@ var Programs = (function () {
     var _c = _vm._self._c || _h;
     return _c(
       "section",
-      {
-        staticClass:
-          "o-container u-bottom-spacing u-top-spacing-small desktop:flex"
-      },
+      { staticClass: "o-container u-top-spacing-small desktop:flex" },
       [
         _c(
           "div",
@@ -13002,30 +12999,6 @@ var Programs = (function () {
                         }
                       },
                       [
-                        _c(
-                          "li",
-                          {
-                            class:
-                              "c-list-box__subitem bg-" + term.slug + "--primary"
-                          },
-                          [
-                            _c(
-                              "button",
-                              {
-                                on: {
-                                  click: function($event) {
-                                    return _vm.toggle({
-                                      event: $event,
-                                      data: { parent: term.slug }
-                                    })
-                                  }
-                                }
-                              },
-                              [_vm._v("\n              Toggle All\n            ")]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
                         _vm._l(term.filters, function(filter) {
                           return _c(
                             "li",
@@ -13068,6 +13041,7 @@ var Programs = (function () {
                                 _c(
                                   "span",
                                   {
+                                    staticClass: "select-none",
                                     domProps: { innerHTML: _vm._s(filter.name) }
                                   },
                                   [_vm._v(_vm._s(filter.name))]
@@ -13075,7 +13049,34 @@ var Programs = (function () {
                               ])
                             ]
                           )
-                        })
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "li",
+                          {
+                            class:
+                              "c-list-box__subitem bg-" +
+                              term.slug +
+                              "--primary text-center"
+                          },
+                          [
+                            _c(
+                              "button",
+                              {
+                                staticClass: "button--outline p-3 w-full mb-4",
+                                on: {
+                                  click: function($event) {
+                                    return _vm.toggle({
+                                      event: $event,
+                                      data: { parent: term.slug }
+                                    })
+                                  }
+                                }
+                              },
+                              [_vm._v("\n              Toggle All\n            ")]
+                            )
+                          ]
+                        )
                       ],
                       2
                     )
@@ -13098,17 +13099,13 @@ var Programs = (function () {
                       _c(
                         "div",
                         {
-                          staticClass:
-                            "c-block-list--shade o-content-container u-sm-gutter",
+                          staticClass: "c-block-list--shade o-content-container",
                           attrs: { "data-js": "filtered-results" }
                         },
                         _vm._l(page.posts, function(post) {
                           return _c(
                             "div",
-                            {
-                              key: post.id,
-                              staticClass: "c-block-list__item u-sm-gutter"
-                            },
+                            { key: post.id, staticClass: "u-lg-gutter" },
                             [
                               _c(
                                 "div",
@@ -13221,46 +13218,7 @@ var Programs = (function () {
               ])
             }),
             0
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "o-content-container--compact pagination mobile:flex justify-between"
-            },
-            [
-              _c("div", {
-                staticClass: "previous tablet:mr-3 mb-3 tablet:mb-0 text-center",
-                attrs: { id: "paginate" }
-              }),
-              _vm._v(" "),
-              _c("div", { staticClass: "paginate text-center" }, [
-                _vm.next
-                  ? _c(
-                      "button",
-                      {
-                        staticClass:
-                          "button--outline button--outline--gray paginate",
-                        attrs: { "data-amount": "1" },
-                        on: { click: _vm.paginate }
-                      },
-                      [_vm._v("\n          Next\n        ")]
-                    )
-                  : _vm._e()
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c("p", [
-            _vm.next
-              ? _c(
-                  "button",
-                  { attrs: { "data-amount": "1" }, on: { click: _vm.paginate } },
-                  [_vm._v("Load More Posts")]
-                )
-              : _vm._e()
-          ])
+          )
         ])
       ]
     )
