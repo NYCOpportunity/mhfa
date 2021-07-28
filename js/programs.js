@@ -13267,6 +13267,110 @@ var Programs = (function () {
 
   var Services = [
   	{
+  		subtitle: "A COVID-19 emotional support helpline.",
+  		title: "NY Project Hope",
+  		programProvider: "Department of Health and Mental Hygiene (DOHMH)",
+  		body: "A COVID-19 emotional support helpline.",
+  		featured: [
+  		],
+  		categories: [
+  			{
+  				id: 1,
+  				name: "Trauma Support",
+  				slug: "trauma-support"
+  			},
+  			{
+  				id: 5,
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
+  			},
+  			{
+  				id: 4,
+  				name: "Grief Support",
+  				slug: "grief-support"
+  			},
+  			{
+  				id: 8,
+  				name: "Counseling",
+  				slug: "counseling"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone",
+  				slug: "everyone"
+  			}
+  		]
+  	},
+  	{
+  		subtitle: "COVID-19 Community Conversations provides information and resources regarding the mental health impact of the pandemic.",
+  		title: "COVID-19 Community Conversations",
+  		programProvider: "Department of Health and Mental Hygiene (DOHMH)",
+  		body: "COVID-19 Community Conversations provides information and resources regarding the mental health impact of the pandemic.",
+  		featured: [
+  		],
+  		categories: [
+  			{
+  				id: 1,
+  				name: "Trauma Support",
+  				slug: "trauma-support"
+  			},
+  			{
+  				id: 5,
+  				name: "Help with Anxiety",
+  				slug: "help-with-anxiety"
+  			},
+  			{
+  				id: 4,
+  				name: "Grief Support",
+  				slug: "grief-support"
+  			},
+  			{
+  				id: 7,
+  				name: "Peer Support",
+  				slug: "peer-support"
+  			},
+  			{
+  				id: 8,
+  				name: "Counseling",
+  				slug: "counseling"
+  			}
+  		],
+  		population: [
+  			{
+  				id: 6,
+  				name: "Everyone",
+  				slug: "everyone"
+  			},
+  			{
+  				id: 3,
+  				name: "LGBTQ New Yorkers",
+  				slug: "lgbtq-new-yorkers"
+  			},
+  			{
+  				id: 7,
+  				name: "Immigrants",
+  				slug: "immigrants"
+  			},
+  			{
+  				id: 8,
+  				name: "Adults",
+  				slug: "adults"
+  			},
+  			{
+  				id: 4,
+  				name: "Seniors",
+  				slug: "seniors"
+  			},
+  			{
+  				id: 1,
+  				name: "Veterans",
+  				slug: "veterans"
+  			}
+  		]
+  	},
+  	{
   		subtitle: "Find treatment for opioid use disorder (OUD) with medications like methadone and buprenorphine at your health care provider or one of these resources.",
   		title: "Medications for Opioid Use Disorder",
   		programProvider: "Department of Health and Mental Hygiene (DOHMH)",
