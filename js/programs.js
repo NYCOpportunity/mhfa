@@ -12941,12 +12941,7 @@ var Programs = (function () {
               "div",
               {
                 staticClass:
-                  "c-list-box c-list-box--quaternary js-accordion o-accordion",
-                attrs: {
-                  "data-multiselectable": "false",
-                  role: "presentation",
-                  "aria-multiselectable": "false"
-                }
+                  "c-list-box c-list-box--quaternary js-accordion o-accordion"
               },
               _vm._l(_vm.terms, function(term) {
                 return _c(
@@ -12994,7 +12989,6 @@ var Programs = (function () {
                       {
                         staticClass: "active hidden",
                         attrs: {
-                          role: "region",
                           "aria-hidden": "false",
                           id: "aria-c-" + term.slug
                         }
@@ -14653,11 +14647,14 @@ var Programs = (function () {
               const tileText = document.createTextNode(
                 'Sorry, no results were found.'
               );
+
               title.appendChild(tileText);
+
               const node = document.createElement('p');
               const textnode = document.createTextNode(
                 'It looks like there aren’t any services for the filters you selected at this moment.'
               );
+
               node.appendChild(textnode);
               divContainer.appendChild(title);
               divContainer.appendChild(node);
@@ -14668,9 +14665,10 @@ var Programs = (function () {
             };
 
             if (this.query.cat && this.query.pop) {
-              if (this.query.cat.length === 0 && this.query.pop.length === 0) {
+              if (this.query.cat.length === 0 && this.query.pop.length === 0)
                 filterdData = [...this.services];
-              } else if (this.query.cat.length > 0 && this.query.pop.length > 0) {
+
+              else if (this.query.cat.length > 0 && this.query.pop.length > 0) {
                 filterdData = [...this.services].filter((service) => {
                   let filtered =
                     service.categories.some((category) =>
@@ -14681,6 +14679,7 @@ var Programs = (function () {
                     );
                   return filtered;
                 });
+
                 filterdData.length === 0 && noResultFound();
               } else if (
                 this.query.cat.length > 0 &&
@@ -14702,6 +14701,7 @@ var Programs = (function () {
                   let filteredPop = service.population.some((people) =>
                     this.query.pop.includes(people.id)
                   );
+
                   return filteredPop;
                 });
 
@@ -14718,18 +14718,18 @@ var Programs = (function () {
 
                 filterdData.length === 0 && noResultFound();
               }
-            } else if (this.query.pop && !this.query.cat) {
+            } else if (this.query.pop && !this.query.cat)
               if (this.query.pop.length > 0) {
                 filterdData = [...this.services].filter((service) => {
                   let filteredPop = service.population.some((people) =>
                     this.query.pop.includes(people.id)
                   );
+
                   return filteredPop;
                 });
 
                 filterdData.length === 0 && noResultFound();
               }
-            }
 
             return filterdData;
           },
@@ -14769,19 +14769,18 @@ var Programs = (function () {
             .queue() // Queue up the first request
             .fetch('terms') // Get the terms from the 'terms' endpoint
             .catch(this.error);
-
-
           },
         updated: function() {
           this.$nextTick(function () {
             // Code that will run only after the
             // entire view has been rendered
               if (!this.isMounted && window.innerWidth > 1024) {
-                if (document.querySelector('#aria-c-cat') != null) {
+                if (document.querySelector('#aria-c-cat') != null)
                   window.gunyc.toggleTrigger('#aria-c-cat');
-                }
+
                 if (document.querySelector('#aria-c-pop') != null) {
                   window.gunyc.toggleTrigger('#aria-c-pop');
+
                   this.isMounted = true;
                 }
               }
